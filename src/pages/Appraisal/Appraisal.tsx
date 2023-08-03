@@ -22,6 +22,7 @@ const Appraisal = (): JSX.Element => {
   }, [])
 
   useEffect(() => {
+    // validating if button must be enabled whenever kraList changes i.e. user input
     dispatch(
       appraisalServices.actions.setAppraisalSubmitBtnEnabled(
         checkIfSubmitButtonIsEnabled(kraList),
