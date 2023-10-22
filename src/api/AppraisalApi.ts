@@ -4,7 +4,7 @@ import { IncomingAppraisalData } from '../types/AppraisalTypes'
 
 const getAppraisalData = async (): Promise<IncomingAppraisalData> => {
   const response = await axios.get(
-    'https://run.mocky.io/v3/63db532f-e7a2-4dfc-8ece-ef5fff714ca5',
+    'https://run.mocky.io/v3/0407be72-547c-422c-9146-5e92985eabb4',
     {
       responseType: 'json',
     },
